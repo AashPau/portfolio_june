@@ -9,4 +9,8 @@ Currently, two official plugins are available:
 
 # Portfolio
 
-This portfolio is update to my existing portfolio in repository "react-resume". This project my first project with tailwind css.
+1. This portfolio is update to my existing portfolio in repository "react-resume". This project my first project with tailwind css.
+2. Use react-type-animation for animated typing effect.
+
+--add border to image a selet a suitable color
+--make button better

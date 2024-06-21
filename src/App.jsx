@@ -1,6 +1,6 @@
 import "./App.css";
-import { Hero } from "./components/Hero";
-import { Top } from "./components/Top";
+import { Hero } from "./components/pages/Hero";
+import { Top } from "./components/pages/Top";
 
 function App() {
   return (
