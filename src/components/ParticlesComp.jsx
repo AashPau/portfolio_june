@@ -23,7 +23,7 @@ export const ParticlesComp = () => {
   };
 
   return (
-    <div className="App">
+    <div>
       {init && (
         <Particles
           id="tsparticles"

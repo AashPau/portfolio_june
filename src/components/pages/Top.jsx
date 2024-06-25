@@ -1,6 +1,6 @@
 export const Top = () => {
   return (
-    <div className="min-h-32 md:flex p-5 z-20 start-0 border-b bg-black items-center fixed top-0 w-full justify-around poppins-regular box-border">
+    <div className="min-h-32 md:flex p-5 z-40 start-0 border-b bg-black items-center fixed top-0 w-full justify-around poppins-regular box-border">
       <h1 className="text-transparent bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text ms-2 font-extrabold text-5xl mb-4 md:mb-0 text-center md:text-start">
         Aashish Paudel
       </h1>
