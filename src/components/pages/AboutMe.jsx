@@ -1,8 +1,10 @@
+import { ImageAlt } from "../Image";
+
 export const AboutMe = () => {
   return (
-    <div className="h-dvh text-3xl poppins-regular relative bg-black text-white z-30">
+    <div className="h-dvh text-3xl poppins-regular relative bg-black text-white z-30 box-border">
       <div>
-        <h1 className="mx-auto font-bold mb-6">ABOUT ME</h1>
+        <h1 className="pt-6 ms-28 font-bold mb-4">ABOUT ME</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 w-[80%] mx-auto gap-[3rem]">
           <div>
             Driven by a strong ambition to fulfill my career goal as a Software
@@ -14,7 +16,9 @@ export const AboutMe = () => {
             including my most recent role as a Software Developer, I have
             further developed my professional expertise.
           </div>
-          <div></div>
+          <div className="hidden md:block">
+            <ImageAlt />
+          </div>
         </div>
       </div>
     </div>
